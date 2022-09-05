@@ -14,10 +14,10 @@ function App() {
       <BrowserRouter>
       <Header logo={logo}/>
       <Routes>
-        <Route path = '/'element={<Profile userName='lindatop' />}
+        <Route path = '/'element={<Profile userName='lindachristian001' />}
         />
-<Route path = '/projects' element={<Projects userName='lindatop'/>} />
-<Route path='/Projects/:name' element ={<ProjectDetail userName='lindatop' />}
+<Route path = '/projects' element={<Projects userName='lindachristian001'/>} />
+<Route path='/Projects/:name' element ={<ProjectDetail userName='lindachristian001' />}
         />
         </Routes>
         </BrowserRouter>      
